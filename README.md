@@ -2,7 +2,28 @@
 
 Help users manage their Stores and Products in Stores
 
-## API Reference
+Design the following API endpoints to handle authentication, store management, and product management:
+
+- Authentication Endpoints:
+
+    - `/api/auth/login` (POST): Logs in the user by checking the provided credentials.
+    - `/api/auth/logout` (POST): Logs out the currently authenticated user.
+- Store Endpoints:
+
+    - `/api/stores` (GET): Retrieves a list of all stores.
+    - `/api/stores/{store_id}` (GET): Retrieves details of a specific store.
+    - `/api/stores` (POST): Creates a new store.
+    - `/api/stores/{id}` (PUT): Updates details of a specific store.
+    - `/api/stores/{id}` (DELETE): Deletes a specific store.
+- Product Endpoints:
+
+    - `/api/products` (GET): Retrieves a list of all products.
+    - `/api/products/{id}` (GET): Retrieves details of a specific product.
+    - `/api/products` (POST): Creates a new product.
+    - `/api/products/{id}` (PUT): Updates details of a specific product.
+    - `/api/products/{id}` (DELETE): Deletes a specific product.
+
+## API Detail
 
 ### AUTH
 
