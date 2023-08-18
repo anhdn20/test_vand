@@ -10,7 +10,7 @@ API authenticate Users
 
 #### API LOGIN
 ```
-  POST /login
+  POST /login : Logs in the user by checking the provided credentials.
 ```
 
 | Parameter | Type     | Description                |
@@ -32,7 +32,7 @@ Output
 
 #### API LOGOUT
 ```
-  POST /logout
+  POST /logout : Logs out the currently authenticated user.
 ```
 
 | Parameter | Type     | Description                |
@@ -51,7 +51,7 @@ Output
 ### STORES
 
 ```
-  GET /stores
+  GET /stores : Retrieves a list of all stores.
 ```
 #### API GET LIST STORES
 | Parameter | Type     | Description                |
@@ -92,7 +92,7 @@ Output
 
 #### API GET STORE DETAIL
 ```
-  GET /stores/{id}
+  GET /stores/{id} : Retrieves details of a specific store.
 ```
 
 | Parameter | Type     | Description                |
@@ -114,7 +114,7 @@ Output
 
 #### API CREATE STORE
 ```
-  POST /stores
+  POST /stores : Creates a new store.
 ```
 
 | Parameter | Type     | Description                |
@@ -133,7 +133,7 @@ Output
 ```
 #### API UPDATE STORE
 ```
-  PUT /stores/{id}
+  PUT /stores/{id} : Updates details of a specific store.
 ```
 
 | Parameter | Type     | Description                |
@@ -153,7 +153,7 @@ Output
 
 #### API DELETE STORE
 ```
-  DELETE /stores/{id}
+  DELETE /stores/{id} : Deletes a specific store.
 ```
 
 | Parameter | Type     | Description                |
@@ -172,7 +172,7 @@ Output
 
 #### API GET LIST PRODUCTS
 ```
-  GET /products
+  GET /products : Retrieves a list of all products.
 ```
 
 | Parameter | Type     | Description                |
@@ -220,7 +220,7 @@ Output
 ```
 #### API GET PRODUCT DETAIL
 ```
-  GET /products/{id}
+  GET /products/{id} : Retrieves details of a specific product.
 ```
 
 | Parameter | Type     | Description                |
@@ -244,7 +244,7 @@ Output
 
 #### API CREATE PRODUCT
 ```
-  POST /products
+  POST /products : Creates a new product.
 ```
 
 | Parameter | Type     | Description                |
@@ -265,7 +265,7 @@ Output
 ```
 #### API UPDATE PRODUCT
 ```
-  PUT /products/{id}
+  PUT /products/{id} : Updates details of a specific product.
 ```
 
 | Parameter | Type     | Description                |
@@ -287,7 +287,7 @@ Output
 
 #### API DELETE PRODUCT
 ```
-  DELETE /products/{id}
+  DELETE /products/{id} : Deletes a specific product.
 ```
 
 | Parameter | Type     | Description                |
