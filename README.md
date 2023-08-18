@@ -11,7 +11,7 @@ Design the following API endpoints to handle authentication, store management, a
 - Store Endpoints:
 
     - `/api/stores` (GET): Retrieves a list of all stores.
-    - `/api/stores/{store_id}` (GET): Retrieves details of a specific store.
+    - `/api/stores/{id}` (GET): Retrieves details of a specific store.
     - `/api/stores` (POST): Creates a new store.
     - `/api/stores/{id}` (PUT): Updates details of a specific store.
     - `/api/stores/{id}` (DELETE): Deletes a specific store.
