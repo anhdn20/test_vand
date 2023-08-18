@@ -1,6 +1,6 @@
 # APPLICATION MANAGE STORES AND PRODUCTS
 
-Help users manage their Stores and Products in Stores
+Help users manage their stores and products in stores
 
 Design the following API endpoints to handle authentication, store management, and product management:
 
