@@ -9,7 +9,7 @@ Help users manage their Stores and Products in Stores
 API authenticate Users
 
 #### API LOGIN
-```http
+```
   POST /login
 ```
 
@@ -31,7 +31,7 @@ Output
 ```
 
 #### API LOGOUT
-```http
+```
   POST /logout
 ```
 
@@ -40,7 +40,7 @@ Output
 
 ### STORES
 
-```http
+```
   GET /stores
 ```
 #### API GET LIST STORES
@@ -81,7 +81,7 @@ Output
 ```
 
 #### API GET STORE DETAIL
-```http
+```
   GET /stores/{id}
 ```
 
@@ -103,7 +103,7 @@ Output
 ```
 
 #### API CREATE STORE
-```http
+```
   POST /stores
 ```
 
@@ -122,7 +122,7 @@ Output
 }
 ```
 #### API UPDATE STORE
-```http
+```
   PUT /stores/{id}
 ```
 
@@ -142,7 +142,7 @@ Output
 ```
 
 #### API DELETE STORE
-```http
+```
   DELETE /stores/{id}
 ```
 
@@ -161,7 +161,7 @@ Output
 ### PRODUCTS
 
 #### API GET LIST PRODUCTS
-```http
+```
   GET /products
 ```
 
@@ -209,7 +209,7 @@ Output
 }
 ```
 #### API GET PRODUCT DETAIL
-```http
+```
   GET /products/{id}
 ```
 
@@ -233,7 +233,7 @@ Output
 ```
 
 #### API CREATE PRODUCT
-```http
+```
   POST /products
 ```
 
@@ -254,7 +254,7 @@ Output
 }
 ```
 #### API UPDATE PRODUCT
-```http
+```
   PUT /products/{id}
 ```
 
@@ -276,7 +276,7 @@ Output
 ```
 
 #### API DELETE PRODUCT
-```http
+```
   DELETE /products/{id}
 ```
 
