@@ -38,6 +38,16 @@ Output
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 
+Output
+
+```
+{
+    "statusCode": 0,
+    "messenge": "Thành công",
+    "data": null
+}
+```
+
 ### STORES
 
 ```
