@@ -25,6 +25,11 @@ Design the following API endpoints to handle authentication, store management, a
 
 ## API Detail
 
+**URL** : https://site-demo.top/vand/public/api
+**Account** : vand
+**Password** : 123
+
+
 ### AUTH
 
 API authenticate Users
